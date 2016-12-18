@@ -15,7 +15,7 @@ class Program
 {
     public static async Task<XDocument> CallWebServiceAsync()
     {
-        var url = @"cccc";
+        var url = @"http://www.webservicex.net/globalweather.asmx";
         var action = @"http://www.webserviceX.NET/GetWeather";
         var result = await CreateWebRequestAsync(url, action).ConfigureAwait(false);
         var resultString = await result.Content.ReadAsStringAsync().ConfigureAwait(false);
@@ -26,7 +26,19 @@ class Program
     {
         var envelopeContent =
             @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:web=""http://www.webserviceX.NET"">
-   <soapenv:Header/>
+   <soapenv:Header>
+<wsse:Security xmlns:wsse='http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd' xmlns:wsu='http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd'>
+    <wsu:Timestamp wsu:Id='Timestamp-2016-12-18T20:11:27Z'>
+        <wsu:Created>2016-12-18T20:11:27Z</wsu:Created>
+        <wsu:Expires>2016-12-18T20:21:27Z</wsu:Expires>
+    </wsu:Timestamp>
+    <wsse:UsernameToken xmlns:wsu='http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd' wsu:Id='SecurityToken-2016-12-18T20:11:27Z'>
+        <wsse:Username>MyUsuario</wsse:Username>
+        <wsse:Password>MyPass</wsse:Password>
+        <wsu:Created>2016-12-18T20:11:27Z</wsu:Created>
+    </wsse:UsernameToken>
+</wsse:Security>
+</soapenv:Header>
    <soapenv:Body>
       <web:GetWeather>
          <!--Optional:-->
