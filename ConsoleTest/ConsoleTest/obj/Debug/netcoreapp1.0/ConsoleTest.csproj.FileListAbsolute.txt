@@ -1,0 +1,9 @@
+D:\workSpace\myRepos\GitHub\SoapNetCore\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp1.0\ConsoleTest.deps.json
+D:\workSpace\myRepos\GitHub\SoapNetCore\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp1.0\ConsoleTest.runtimeconfig.json
+D:\workSpace\myRepos\GitHub\SoapNetCore\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp1.0\ConsoleTest.runtimeconfig.dev.json
+D:\workSpace\myRepos\GitHub\SoapNetCore\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp1.0\ConsoleTest.dll
+D:\workSpace\myRepos\GitHub\SoapNetCore\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp1.0\ConsoleTest.pdb
+D:\workSpace\myRepos\GitHub\SoapNetCore\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp1.0\ConsoleTest.csprojResolveAssemblyReference.cache
+D:\workSpace\myRepos\GitHub\SoapNetCore\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp1.0\ConsoleTest.AssemblyInfo.cs
+D:\workSpace\myRepos\GitHub\SoapNetCore\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp1.0\ConsoleTest.dll
+D:\workSpace\myRepos\GitHub\SoapNetCore\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp1.0\ConsoleTest.pdb
